@@ -3,7 +3,7 @@
 Plugin Name: Indian Sociable
 Plugin URI: http://nspeaks.com/671/indian-sociable-wordpress-plugin-released/
 Description: Adds Indian Sites to <a href="http://yoast.com/wordpress/sociable/">Sociable</a> Plugin.
-Version: 0.1
+Version: 0.2
 Author: Navjot Singh
 Author URI: http://nspeaks.com/
 */
@@ -34,9 +34,21 @@ function insociable_sites( $known_sites) {
     'favicon' => $inpath.'indiantags.png',
     'url' => 'http://www.indiantags.com/submit.php?url=PERMALINK',
   );
+	$known_sites['IndiaSphere'] = array(
+    'favicon' => $inpath.'indiasphere.png',
+    'url' => 'http://www.indiantags.com/submit?url=PERMALINK&title=TITLE',
+  );
 	$known_sites['Newzly'] = array(
     'favicon' => $inpath.'newzly.png',
     'url' => 'http://www.newzly.com/submit.php?url=PERMALINK',
+  );
+	$known	_sites['oneview'] = array(
+    'favicon' => $inpath.'oneview.png',
+    'url' => 'http://www.oneview.in/quickadd/neu/addBookmark.jsf?URL=PERMALINK&title=TITLE',
+  );
+	$known_sites['PagalPundit'] = array(
+    'favicon' => $inpath.'pagalpundit.png',
+    'url' => 'http://www.pagalpandit.com/submit.php?url=PERMALINK',
   );
 	$known_sites['Rambhai'] = array(
     'favicon' => $inpath.'rambhai.png',
@@ -45,6 +57,10 @@ function insociable_sites( $known_sites) {
 	$known_sites['Spotonce'] = array(
     'favicon' => $inpath.'spotonce.png',
     'url' => 'http://www.spotonce.com/submit.php?url=PERMALINK',
+  );
+	$known_sites['Yeawo'] = array(
+    'favicon' => $inpath.'yeawo.png',
+    'url' => 'http://www.yeawo.com/submit?url=PERMALINK&title=TITLE',
   );
   return $known_sites;
 }
