@@ -3,7 +3,7 @@
 Plugin Name: Indian Sociable
 Plugin URI: http://nspeaks.com/671/indian-sociable-wordpress-plugin-released/
 Description: Adds Indian Sites to <a href="http://yoast.com/wordpress/sociable/">Sociable</a> Plugin.
-Version: 0.2
+Version: 0.3
 Author: Navjot Singh
 Author URI: http://nspeaks.com/
 */
@@ -42,7 +42,7 @@ function insociable_sites( $known_sites) {
     'favicon' => $inpath.'newzly.png',
     'url' => 'http://www.newzly.com/submit.php?url=PERMALINK',
   );
-	$known	_sites['oneview'] = array(
+	$known_sites['oneview'] = array(
     'favicon' => $inpath.'oneview.png',
     'url' => 'http://www.oneview.in/quickadd/neu/addBookmark.jsf?URL=PERMALINK&title=TITLE',
   );

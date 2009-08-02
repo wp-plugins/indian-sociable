@@ -3,7 +3,7 @@ Contributors: navjotjsingh
 Tags: social, bookmark, bookmarks, bookmarking, social bookmarking, social bookmarks, indian social bookmarks, indian social bookmarking
 Requires at least: 2.6
 Tested up to: 2.8.2
-Stable tag: 0.2
+Stable tag: 0.3
 
 Adds Indian Social Bookmarking Websites to Sociable Plugin by Joost.
 
@@ -26,6 +26,9 @@ If you want to add your Social Bookmarking site(Must be Indian) to Indian Sociab
 1. You will see the mentioned sites in Options. Checkmark them and they will appear on your blog.
 
 == Changelog ==
+
+= 0.3 =
+Fixed a Stupid Typo Bug which was not activating the upgraded plugin.
 
 = 0.2 =
 * Added IndiaSphere, oneview, PagalPundit, Yeawo to the Plugin
