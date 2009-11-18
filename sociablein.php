@@ -2,8 +2,8 @@
 /*
 Plugin Name: Indian Sociable
 Plugin URI: http://nspeaks.com/671/indian-sociable-wordpress-plugin-released/
-Description: Adds Indian Sites to <a href="http://yoast.com/wordpress/sociable/">Sociable</a> Plugin.
-Version: 0.3
+Description: Adds Indian Sites to <a href="http://blogplay.com/plugin/">Sociable</a> Plugin.
+Version: 0.4
 Author: Navjot Singh
 Author URI: http://nspeaks.com/
 */
@@ -17,6 +17,10 @@ function insociable_sites( $known_sites) {
 	$known_sites['BharatBoom'] = array(
     'favicon' => $inpath.'bharatboom.png',
     'url' => 'http://www.bharatboom.com/submit.php?url=PERMALINK',
+  );
+	$known_sites['BollyScoops'] = array(
+    'favicon' => $inpath.'bollyscoops.png',
+    'url' => 'http://www.bollyscoops.com/submit.php?url=PERMALINK',
   );
 	$known_sites['Humsurfer'] = array(
     'favicon' => $inpath.'humsurfer.png',

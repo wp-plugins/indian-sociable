@@ -1,16 +1,16 @@
 === Indian Sociable ===
 Contributors: navjotjsingh
-Tags: social, bookmark, bookmarks, bookmarking, social bookmarking, social bookmarks, indian social bookmarks, indian social bookmarking
+Tags: sociable, social, bookmark, bookmarks, bookmarking, social bookmarking, social bookmarks, indian social bookmarks, indian social bookmarking
 Requires at least: 2.6
-Tested up to: 2.8.2
-Stable tag: 0.3
+Tested up to: 2.9
+Stable tag: 0.4
 
-Adds Indian Social Bookmarking Websites to Sociable Plugin by Joost.
+Adds Indian Social Bookmarking Websites to Sociable Plugin.
 
 == Description ==
-There are so many Indian Social Bookmarking Sites available on internet. This Plugin was created so that you can easily add Indian Social Bookmarking Sites to your posts. This Plugin is an addon of [Sociable](http://yoast.com/wordpress/sociable/) Plugin by Joost. Hence, this plugin requires Sociable(3.4 version and above) to be installed first for it to work. 
+There are so many Indian Social Bookmarking Sites available on internet. This Plugin was created so that you can easily add Indian Social Bookmarking Sites to your posts. This Plugin is an addon of [Sociable](http://blogplay.com/plugin/) Plugin. Hence, this plugin requires Sociable(3.4 version and above) to be installed first for it to work. 
 
-Currently this plugin supports: BestofIndya, BharatBoom, Humsurfer, IndiaBol, IndianBytes, IndianTags, IndiaSphere, PagalPundit, oneview, Newzly, Rambhai, Spotonce and Yeawo.
+Currently this plugin supports: BestofIndya, BharatBoom, BollyScoops, Humsurfer, IndiaBol, IndianBytes, IndianTags, IndiaSphere, PagalPundit, oneview, Newzly, Rambhai, Spotonce and Yeawo.
 
 If you want to add your Social Bookmarking site(Must be Indian) to Indian Sociable Plugin, then [contact me](http://nspeaks.com/contact/).
 
@@ -27,8 +27,12 @@ If you want to add your Social Bookmarking site(Must be Indian) to Indian Sociab
 
 == Changelog ==
 
+= 0.4 =
+* Added BollyScoops to List.
+* Updated for Wordpress 2.9
+
 = 0.3 =
-Fixed a Stupid Typo Bug which was not activating the upgraded plugin.
+* Fixed a Stupid Typo Bug which was not activating the upgraded plugin.
 
 = 0.2 =
 * Added IndiaSphere, oneview, PagalPundit, Yeawo to the Plugin
